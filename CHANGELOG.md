@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## 2024-07-11
+
+Udated `edit_handlers.py` to work with Wagtail 3.0 and above
+
+- Updated from `widget_overrides` method to `get_form_options`
+- Import FieldPanel from `wagtail.admin.panels` instead `wagtail.admin.edit_handlers`
+
 ## [1.0.1] - 2018-06-25
 
 Thanks to @scisteffan for their contribution.
